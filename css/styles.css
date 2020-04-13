@@ -12,9 +12,14 @@
 /*	base layout */
 
 body{
-	background-color:#E9E8E8;
+	background-color: #fafafa;
+	margin: 0;
 }
 
+li{
+	
+	list-style:  none;
+}
 
 .main-header{
 	
@@ -38,7 +43,6 @@ body{
 	list-style:  none;
 	padding: 10px 15px;
 	margin-bottom: 20px;
-	background-color: white;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	
@@ -46,25 +50,32 @@ body{
 .main-nav a{
 	color: black;
 	display: block;
+	background-color: #ffffff;
 }
 .main-nav a:hover{
 	color:#4E82A0;
 }
 
 .wrapper{
-	background-color: white;
+	background-color: #FFFFFF;
 	padding-bottom: 15px;
 	
 	
 }
 .portfolio{
 	text-align: center;
+	}
+.portfolio img{
+	width: 65%;
+	margin: auto;
+}
+
+.bio{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.5em;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	text-decoration:  underline;
-	padding-top: 5px;
 }
 
 .col{
@@ -156,4 +167,165 @@ p{
 .top {
 	float: right;
 	color: black;
+}
+
+
+.top:hover{
+	color: burlywood;
+}
+
+.email{
+	color:  black;
+}
+
+.email:hover{
+	color: burlywood;
+}
+.tfooter-nav li{
+	display: none;
+}
+
+/*media query tablet*/
+
+@media (min-width: 768px){
+	
+		.main-header{
+		margin: auto;
+		text-align:  center;
+	}
+	
+	.main-nav li{
+		display: inline-block;
+		margin: auto;
+			
+		
+	}
+	.portfolio{
+		padding-bottom: 60px;
+	}
+	.portfolio p{
+		width: 50%;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	.portfolio img{
+		width: 50%;
+		float: right;
+		
+	}
+
+	.bio{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.wrapper img{
+		padding-top: 0;
+	}
+	
+	.first{
+		width:  50%;
+		float: right;
+		display: inline-block;
+	}
+	
+	.second{
+		width: 50%;
+		float: left;
+		display: inline-block;
+	}
+	.third{
+		width: 50%;
+		float: right;
+	}
+	.fourth{
+		width: 50%;
+		float: left;
+	}
+	.fifth{
+		width: 50%;
+		float: right;
+	}
+	.sixth{
+		width: 50%;
+		float: left;
+	}
+	p{
+		padding-bottom: 0;
+		margin-bottom: 63px; 
+	}
+	.subh1{
+		padding-bottom: 0;
+		margin-bottom:  25px;
+	}
+	.subh2{
+		padding-bottom: 0;
+		margin-bottom:  25px;
+	}
+	.subh3{
+		padding-bottom: 0;
+		margin-bottom:  25px;
+	}
+	.subh4{
+		padding-bottom: 0;
+		margin-bottom:  25px;
+	}
+	.sub5{
+		padding-bottom: 0;
+		margin-bottom:  25px;
+	}
+	.subh6{
+		padding: 15px 0;
+		margin-bottom:  25px;
+	}
+	.contact-header{
+		margin-top: 63px;
+		margin-bottom: 60px;
+	}
+       li{
+		line-height:  30px;
+	}
+	.top{
+		display:  none;
+	}
+
+	.tfooter-nav{
+		float: right;
+	}
+	.tfooter-nav li{
+		display:  inline-block;
+		padding-right: 5px;
+		
+	}
+	.tfooter-nav ul{
+		padding-right: 40px;
+	}
+	.tfooter-nav a{
+		text-transform: capitalize;
+		color: black;
+	}
+	.tfooter-nav a:hover{
+		color:burlywood;
+	}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
