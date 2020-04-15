@@ -1,13 +1,6 @@
 @charset "UTF-8";
 /*web fonts*/
-@font-face{
-	font-family: 'google';
-	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
-	}
-@font-face{
-	font-family: 'google2';
-	src:url("../fonts/Montserrat/Montserrat-Light.ttf");
-		}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* CSS Document */
 
@@ -25,14 +18,20 @@ body{
 	background-color: #fafafa;
 	margin: 0;
 	width: 100%;
-	font-family: 'google';
-	
-}
+	font-family: 'Open Sans', sans-serif;
+	}
 #home, 
 .name{
-	font-family: 'google2';
+	font-family: 'Montserrat', sans-serif;;
 }
 
+#home{
+	color: #015F65;
+}
+.name {
+	float: left;
+	color:#015F65;
+}
 li{
 	
 	list-style:  none;
@@ -81,13 +80,12 @@ li{
 .wrapper{
 	background-color: #FFFFFF;
 	padding-bottom: 15px;
-	
-	
-	
 }
+
 .portfolio{
 	text-align: center;
 	}
+
 .portfolio img{
 	width: 65%;
 	margin: auto;
@@ -106,13 +104,11 @@ li{
 	
 }
 
-
 .wrapper img{
 	display: block;
 	padding: 10px 10px;
 	width:  100%;
 }
-	
 
 p{
 	text-align:  center;
@@ -197,11 +193,6 @@ p{
 	border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
-.name {
-	float: left;
-	color:#015F65;
-	
-}
 
 .top {
 	float: right;
